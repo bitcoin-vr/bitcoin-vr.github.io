@@ -7,9 +7,19 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta property="og:title" content="Bitcoin VR" />
-  <meta property="og:type" content="video.movie" />
+  <meta property="og:type" content="application/javascript" />
   <meta property="og:url" content="https://bitcoin-vr.github.io/" />
-  <meta property="og:image" content="./static_assets/bitcoin-vr-ogg-image.png" />
+  <meta property="og:image" content="./static_assets/bitcoin-vr-ogg-image.jpg" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111087511-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111087511-1');
+  </script>
+
 </head>
 
 <body>
@@ -19,14 +29,14 @@
       <div id="loader"></div>
     </div>
   </div>
-  
+
   <script src="./client.bundle.js"></script>
   <div id="ribbon-wrapper">
     <div id="ribbon">
       <p id="warning">Warning! Best experienced on mobile</p>
     </div>
   </div>
-  
+
   <script src="./reactvrinit.js"></script>
 
 </body>
