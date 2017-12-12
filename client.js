@@ -43,7 +43,7 @@ function init(bundle, parent, options) {
         ...options,
       }
       : {
-        cursorVisibility: "visible",
+        cursorVisibility: "auto",
         // Add custom options here
         ...options,
       });
