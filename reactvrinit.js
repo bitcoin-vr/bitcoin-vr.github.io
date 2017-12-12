@@ -1,9 +1,11 @@
-uniquelyNamedGlobalVariableUsedToRemoveReactVRLoader.removeLoader();
+ReactVR.removeLoader();
+
 // Initialize the React VR application
 ReactVR.init(
   // When you're ready to deploy your app, update this line to point to
   // your compiled index.bundle.js
   './index.bundle.js?platform=vr',
+  // Attach it to the body tag
   document.body,
   {},
   [ './static_assets/Air_Balloon.mtl',
