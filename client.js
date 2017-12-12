@@ -27,7 +27,7 @@ function removeLoader() {
   loaderWrapper.className += 'fade-out';
   setTimeout(() => {
     loaderId.removeChild(loaderWrapper);
-  }, 3000);
+  }, 2000);
 
 };
 
